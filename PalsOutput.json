@@ -1,0 +1,2384 @@
+[
+    {
+        "id": "SheepBall",
+        "name": "Lamball",
+        "title": null,
+        "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this Pal has tumbled down to the very bottom of the food chain itself.",
+        "paldexNumber": 1,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 70,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 40,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 0,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 1
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1470,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1000.0,
+        "isBoss": false,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Fluffy Shield",
+            "description": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to MonsterFarm.",
+            "icon": "T_icon_skill_pal_005.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_SheepBall_Roll",
+                "name": "Roly Poly",
+                "description": "Lamball's exclusive skill. Curls into a ball, rolling after any enemies in its way. Becomes dizzy and unable to move after the attack ends.",
+                "power": 35,
+                "cooldown": 1.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "SelfDestruct",
+                "name": "Implode",
+                "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.",
+                "power": 230,
+                "cooldown": 55.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "Thunderbolt",
+                "name": "Lightning Bolt",
+                "description": "Charges electric energy before blasting enemies with a powerful shock.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 2500,
+                "element": "Electricity",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "PowerBall",
+                "name": "Power Bomb",
+                "description": "Charges a massive amount of energy before firing a large destructive ball.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 9999,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Wool",
+                "name": "Wool",
+                "rate": 100.0,
+                "min": 1,
+                "max": 3
+            },
+            {
+                "itemId": "Meat_SheepBall",
+                "name": "Lamball Mutton",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "Quest_Farmer03_SheepBall",
+        "name": "Lamball",
+        "title": null,
+        "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this Pal has tumbled down to the very bottom of the food chain itself.",
+        "paldexNumber": 1,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 70,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 40,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 0,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 1
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1470,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1000.0,
+        "isBoss": false,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Fluffy Shield",
+            "description": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to MonsterFarm.",
+            "icon": "T_icon_skill_pal_005.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_SheepBall_Roll",
+                "name": "Roly Poly",
+                "description": "Lamball's exclusive skill. Curls into a ball, rolling after any enemies in its way. Becomes dizzy and unable to move after the attack ends.",
+                "power": 35,
+                "cooldown": 1.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "SelfDestruct",
+                "name": "Implode",
+                "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.",
+                "power": 230,
+                "cooldown": 55.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "Thunderbolt",
+                "name": "Lightning Bolt",
+                "description": "Charges electric energy before blasting enemies with a powerful shock.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 2500,
+                "element": "Electricity",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "PowerBall",
+                "name": "Power Bomb",
+                "description": "Charges a massive amount of energy before firing a large destructive ball.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 9999,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Wool",
+                "name": "Wool",
+                "rate": 100.0,
+                "min": 1,
+                "max": 3
+            },
+            {
+                "itemId": "Meat_SheepBall",
+                "name": "Lamball Mutton",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "BOSS_SheepBall",
+        "name": "Lamball",
+        "title": "Big Floof",
+        "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this Pal has tumbled down to the very bottom of the food chain itself.",
+        "paldexNumber": 1,
+        "paldexSuffix": null,
+        "rarity": 5,
+        "size": "M",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 84,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 40,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 0,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 1
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1470,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 2000.0,
+        "isBoss": true,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Fluffy Shield",
+            "description": "When activated, equips to the player and becomes a shield. Sometimes drops Wool when assigned to MonsterFarm.",
+            "icon": "T_icon_skill_pal_005.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_SheepBall_Roll",
+                "name": "Roly Poly",
+                "description": "Lamball's exclusive skill. Curls into a ball, rolling after any enemies in its way. Becomes dizzy and unable to move after the attack ends.",
+                "power": 35,
+                "cooldown": 1.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "SelfDestruct",
+                "name": "Implode",
+                "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.",
+                "power": 230,
+                "cooldown": 55.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "Thunderbolt",
+                "name": "Lightning Bolt",
+                "description": "Charges electric energy before blasting enemies with a powerful shock.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 2500,
+                "element": "Electricity",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "PowerBall",
+                "name": "Power Bomb",
+                "description": "Charges a massive amount of energy before firing a large destructive ball.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 9999,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1370,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -375597.13,
+                        "y": 83209.11,
+                        "z": 1005.47,
+                        "density": 470
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "PalCrystal_Ex",
+                "name": "Ancient Civilization Parts",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Wool",
+                "name": "Wool",
+                "rate": 100.0,
+                "min": 1,
+                "max": 3
+            },
+            {
+                "itemId": "Meat_SheepBall",
+                "name": "Lamball Mutton",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "PalItem_ToSell_05",
+                "name": "Precious Pelt",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Accessory_NormalResist_1",
+                "name": "Ring of Neutral Resistance",
+                "rate": 5.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "PinkCat",
+        "name": "Cattiva",
+        "title": null,
+        "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly. Being toyed with by a Cattiva is in many ways the greatest of disgraces.",
+        "paldexNumber": 2,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 70,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 60,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 50
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 1,
+            "lumbering": 0,
+            "mining": 1,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 0
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1460,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1000.0,
+        "isBoss": false,
+        "passiveSkills": [
+            {
+                "id": "PAL_ALLAttack_down1",
+                "name": "Coward",
+                "description": "Lives in constant fear, but hey, that's what keeps it alive."
+            }
+        ],
+        "partnerSkill": {
+            "name": "Cat Helper",
+            "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+            "icon": "T_icon_skill_pal_010.png",
+            "iconSquare": true
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_PinkCat_CatPunch",
+                "name": "Punch Flurry",
+                "description": "Cattiva's exclusive skill. Chases after enemies, swinging both arms and delivering a flurry of punches.",
+                "power": 40,
+                "cooldown": 1.0,
+                "range": 500,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "ShadowBall",
+                "name": "Nightmare Ball",
+                "description": "Creates a giant ball of darkness and hurls it at an enemy.",
+                "power": 40,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "RootAttack",
+                "name": "Spine Vine",
+                "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "ReflectiveShuriken",
+                "name": "Reflect Leaf",
+                "description": "Launches a blade of wind that rebounds off enemies or trees, striking repeatedly. Can ricochet up to four times.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 300,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Berries",
+                "name": "Red Berries",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "Quest_Farmer03_PinkCat",
+        "name": "Cattiva",
+        "title": null,
+        "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly. Being toyed with by a Cattiva is in many ways the greatest of disgraces.",
+        "paldexNumber": 2,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 70,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 60,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 50
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 1,
+            "lumbering": 0,
+            "mining": 1,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 0
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1460,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1000.0,
+        "isBoss": false,
+        "passiveSkills": [
+            {
+                "id": "PAL_ALLAttack_down1",
+                "name": "Coward",
+                "description": "Lives in constant fear, but hey, that's what keeps it alive."
+            }
+        ],
+        "partnerSkill": {
+            "name": "Cat Helper",
+            "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+            "icon": "T_icon_skill_pal_010.png",
+            "iconSquare": true
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_PinkCat_CatPunch",
+                "name": "Punch Flurry",
+                "description": "Cattiva's exclusive skill. Chases after enemies, swinging both arms and delivering a flurry of punches.",
+                "power": 40,
+                "cooldown": 1.0,
+                "range": 500,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "ShadowBall",
+                "name": "Nightmare Ball",
+                "description": "Creates a giant ball of darkness and hurls it at an enemy.",
+                "power": 40,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "RootAttack",
+                "name": "Spine Vine",
+                "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "ReflectiveShuriken",
+                "name": "Reflect Leaf",
+                "description": "Launches a blade of wind that rebounds off enemies or trees, striking repeatedly. Can ricochet up to four times.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 300,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Berries",
+                "name": "Red Berries",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "BOSS_PinkCat",
+        "name": "Cattiva",
+        "title": "The Cat's Pajamas",
+        "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly. Being toyed with by a Cattiva is in many ways the greatest of disgraces.",
+        "paldexNumber": 2,
+        "paldexSuffix": null,
+        "rarity": 5,
+        "size": "M",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 84,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 60,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 50
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 1,
+            "lumbering": 0,
+            "mining": 1,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 1,
+            "farming": 0
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1460,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 2000.0,
+        "isBoss": true,
+        "passiveSkills": [
+            {
+                "id": "PAL_ALLAttack_down1",
+                "name": "Coward",
+                "description": "Lives in constant fear, but hey, that's what keeps it alive."
+            }
+        ],
+        "partnerSkill": {
+            "name": "Cat Helper",
+            "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+            "icon": "T_icon_skill_pal_010.png",
+            "iconSquare": true
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_PinkCat_CatPunch",
+                "name": "Punch Flurry",
+                "description": "Cattiva's exclusive skill. Chases after enemies, swinging both arms and delivering a flurry of punches.",
+                "power": 40,
+                "cooldown": 1.0,
+                "range": 500,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "ShadowBall",
+                "name": "Nightmare Ball",
+                "description": "Creates a giant ball of darkness and hurls it at an enemy.",
+                "power": 40,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "RootAttack",
+                "name": "Spine Vine",
+                "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "ReflectiveShuriken",
+                "name": "Reflect Leaf",
+                "description": "Launches a blade of wind that rebounds off enemies or trees, striking repeatedly. Can ricochet up to four times.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 300,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "HyperBeam",
+                "name": "Pal Blast",
+                "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Normal",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1298,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "PalCrystal_Ex",
+                "name": "Ancient Civilization Parts",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Berries",
+                "name": "Red Berries",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "PalItem_ToSell_04",
+                "name": "Precious Claw",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Accessory_NormalResist_1",
+                "name": "Ring of Neutral Resistance",
+                "rate": 5.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "ChickenPal",
+        "name": "Chikipi",
+        "title": null,
+        "description": "Extremely weak and far too delicious. It is one of the weakest Pals alongside Lamball. No matter how many are hunted, they just keep appearing.",
+        "paldexNumber": 3,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Bird",
+        "stats": {
+            "hp": 60,
+            "meleeAttack": 70,
+            "rangedAttack": 60,
+            "defense": 60,
+            "support": 70,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 50,
+            "run": 375,
+            "rideSprint": 550,
+            "swim": 50
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 0,
+            "gathering": 1,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 1
+        },
+        "food": 1,
+        "breeding": {
+            "combiRank": 1500,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1000.0,
+        "isBoss": false,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Egg Layer",
+            "description": "Sometimes lays an Egg when assigned to MonsterFarm.",
+            "icon": "T_icon_skill_pal_015.png",
+            "iconSquare": true
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_ChickenPal_ChickenPeck",
+                "name": "Chicken Rush",
+                "description": "Chikipi's exclusive skill. Flies at enemies in its sights, attacking them with its sharp beak.",
+                "power": 30,
+                "cooldown": 1.0,
+                "range": 500,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "SelfDestruct",
+                "name": "Implode",
+                "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.",
+                "power": 230,
+                "cooldown": 55.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "SpecialCutter",
+                "name": "Multicutter",
+                "description": "The user fires three high-speed blades of wind in quick succession that fly straight at enemies.",
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_Gorilla_Ground_EarthPunch",
+                "name": null,
+                "description": null,
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "Unique_AmaterasuWolf_FireCharge",
+                "name": "Daring Flames",
+                "description": "Kitsun's exclusive skill. Charges forward with great speed while enveloped in intense blue flames.",
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Fire",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1247,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1247,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Egg",
+                "name": "Egg",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "Meat_ChickenPal",
+                "name": "Chikipi Poultry",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "BOSS_ChickenPal",
+        "name": "Chikipi",
+        "title": "Plump & Juicy",
+        "description": "Extremely weak and far too delicious. It is one of the weakest Pals alongside Lamball. No matter how many are hunted, they just keep appearing.",
+        "paldexNumber": 3,
+        "paldexSuffix": null,
+        "rarity": 5,
+        "size": "M",
+        "genus": "Bird",
+        "stats": {
+            "hp": 72,
+            "meleeAttack": 70,
+            "rangedAttack": 60,
+            "defense": 60,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 50,
+            "run": 375,
+            "rideSprint": 550,
+            "swim": 50
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 0,
+            "gathering": 1,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 1
+        },
+        "food": 1,
+        "breeding": {
+            "combiRank": 1500,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 2000.0,
+        "isBoss": true,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Egg Layer",
+            "description": "Sometimes lays an Egg when assigned to MonsterFarm.",
+            "icon": "T_icon_skill_pal_015.png",
+            "iconSquare": true
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "Unique_ChickenPal_ChickenPeck",
+                "name": "Chicken Rush",
+                "description": "Chikipi's exclusive skill. Flies at enemies in its sights, attacking them with its sharp beak.",
+                "power": 30,
+                "cooldown": 1.0,
+                "range": 500,
+                "element": "Normal",
+                "category": "Melee"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "SelfDestruct",
+                "name": "Implode",
+                "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.",
+                "power": 230,
+                "cooldown": 55.0,
+                "range": 1000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "SpecialCutter",
+                "name": "Multicutter",
+                "description": "The user fires three high-speed blades of wind in quick succession that fly straight at enemies.",
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_Gorilla_Ground_EarthPunch",
+                "name": null,
+                "description": null,
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "Unique_AmaterasuWolf_FireCharge",
+                "name": "Daring Flames",
+                "description": "Kitsun's exclusive skill. Charges forward with great speed while enveloped in intense blue flames.",
+                "power": 80,
+                "cooldown": 18.0,
+                "range": 3000,
+                "element": "Fire",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 1247,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 1247,
+                "clusters": [
+                    {
+                        "x": -238157.23,
+                        "y": 336814.21,
+                        "z": -437.25,
+                        "density": 514
+                    },
+                    {
+                        "x": -404113.34,
+                        "y": 68356.71,
+                        "z": -251.32,
+                        "density": 312
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "PalCrystal_Ex",
+                "name": "Ancient Civilization Parts",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Egg",
+                "name": "Egg",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "Meat_ChickenPal",
+                "name": "Chikipi Poultry",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "PalItem_ToSell_02",
+                "name": "Precious Plume",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Accessory_NormalResist_1",
+                "name": "Ring of Neutral Resistance",
+                "rate": 5.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "Carbunclo",
+        "name": "Lifmunk",
+        "title": null,
+        "description": "Intelligent as a five to seven-year-old human child. It makes a wonderful partner, but there have been more than a few cases where they've killed their master after learning to use weapons.",
+        "paldexNumber": 4,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 75,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 40,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 1,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 1,
+            "lumbering": 1,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 1,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 0
+        },
+        "food": 1,
+        "breeding": {
+            "combiRank": 1430,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1010.0,
+        "isBoss": false,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Lifmunk Recoil",
+            "description": "When activated, leaps onto the player's head and uses a submachine gun to follows up player attacks.",
+            "icon": "T_icon_skill_pal_003.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "RootAttack",
+                "name": "Spine Vine",
+                "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "ReflectiveShuriken",
+                "name": "Reflect Leaf",
+                "description": "Launches a blade of wind that rebounds off enemies or trees, striking repeatedly. Can ricochet up to four times.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 300,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "PowerBall",
+                "name": "Power Bomb",
+                "description": "Charges a massive amount of energy before firing a large destructive ball.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 9999,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_QueenBee_SpinLance",
+                "name": "Spinning Staff",
+                "description": "Elizabee's exclusive skill. Channels power into its staff, and unleashes it in a whirl.",
+                "power": 95,
+                "cooldown": 25.0,
+                "range": 9999,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "CrossWind",
+                "name": "Crosswind",
+                "description": "Conjures blades of wind in front of the enemy, converging to deliver a cutting cross attack.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Leaf",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 870,
+                "clusters": [
+                    {
+                        "x": -264212.25,
+                        "y": 314103.87,
+                        "z": -1267.43,
+                        "density": 308
+                    },
+                    {
+                        "x": -406363.12,
+                        "y": 93404.44,
+                        "z": -315.79,
+                        "density": 177
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 870,
+                "clusters": [
+                    {
+                        "x": -264212.25,
+                        "y": 314103.87,
+                        "z": -1267.43,
+                        "density": 308
+                    },
+                    {
+                        "x": -406363.12,
+                        "y": 93404.44,
+                        "z": -315.79,
+                        "density": 177
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "BerrySeeds",
+                "name": "Berry Seeds",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "Herbs",
+                "name": "Low Grade Medical Supplies",
+                "rate": 20.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "BOSS_Carbunclo",
+        "name": "Lifmunk",
+        "title": "Coward of the Steppe",
+        "description": "Intelligent as a five to seven-year-old human child. It makes a wonderful partner, but there have been more than a few cases where they've killed their master after learning to use weapons.",
+        "paldexNumber": 4,
+        "paldexSuffix": null,
+        "rarity": 5,
+        "size": "S",
+        "genus": "Humanoid",
+        "stats": {
+            "hp": 90,
+            "meleeAttack": 70,
+            "rangedAttack": 70,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 40,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 0,
+            "watering": 0,
+            "planting": 1,
+            "electricity": 0,
+            "handiwork": 1,
+            "gathering": 1,
+            "lumbering": 1,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 1,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 0
+        },
+        "food": 1,
+        "breeding": {
+            "combiRank": 1430,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 2020.0,
+        "isBoss": true,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Lifmunk Recoil",
+            "description": "When activated, leaps onto the player's head and uses a submachine gun to follows up player attacks.",
+            "icon": "T_icon_skill_pal_003.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "RootAttack",
+                "name": "Spine Vine",
+                "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 7,
+                "id": "AirCanon",
+                "name": "Air Cannon",
+                "description": "Quickly fires a burst of highly pressurized air.",
+                "power": 25,
+                "cooldown": 2.0,
+                "range": 4000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "PowerShot",
+                "name": "Power Shot",
+                "description": "Charges energy into a focused blast.",
+                "power": 35,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "ReflectiveShuriken",
+                "name": "Reflect Leaf",
+                "description": "Launches a blade of wind that rebounds off enemies or trees, striking repeatedly. Can ricochet up to four times.",
+                "power": 50,
+                "cooldown": 9.0,
+                "range": 300,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "PowerBall",
+                "name": "Power Bomb",
+                "description": "Charges a massive amount of energy before firing a large destructive ball.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 9999,
+                "element": "Normal",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_QueenBee_SpinLance",
+                "name": "Spinning Staff",
+                "description": "Elizabee's exclusive skill. Channels power into its staff, and unleashes it in a whirl.",
+                "power": 95,
+                "cooldown": 25.0,
+                "range": 9999,
+                "element": "Leaf",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "CrossWind",
+                "name": "Crosswind",
+                "description": "Conjures blades of wind in front of the enemy, converging to deliver a cutting cross attack.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 1800,
+                "element": "Leaf",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 870,
+                "clusters": [
+                    {
+                        "x": -264212.25,
+                        "y": 314103.87,
+                        "z": -1267.43,
+                        "density": 308
+                    },
+                    {
+                        "x": -406363.12,
+                        "y": 93404.44,
+                        "z": -315.79,
+                        "density": 177
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 870,
+                "clusters": [
+                    {
+                        "x": -264212.25,
+                        "y": 314103.87,
+                        "z": -1267.43,
+                        "density": 308
+                    },
+                    {
+                        "x": -406363.12,
+                        "y": 93404.44,
+                        "z": -315.79,
+                        "density": 177
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "PalCrystal_Ex",
+                "name": "Ancient Civilization Parts",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "BerrySeeds",
+                "name": "Berry Seeds",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "Herbs",
+                "name": "Low Grade Medical Supplies",
+                "rate": 20.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "PalItem_ToSell_05",
+                "name": "Precious Pelt",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Accessory_LeafResist_1",
+                "name": "Ring of Grass Resistance",
+                "rate": 5.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    },
+    {
+        "id": "Kitsunebi",
+        "name": "Foxparks",
+        "title": null,
+        "description": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally. Foxparks sneezes are one of the leading causes of forest fires.",
+        "paldexNumber": 5,
+        "paldexSuffix": null,
+        "rarity": 1,
+        "size": "XS",
+        "genus": "FourLegged",
+        "stats": {
+            "hp": 65,
+            "meleeAttack": 70,
+            "rangedAttack": 75,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 80,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 1,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 0,
+            "gathering": 0,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 0
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1400,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 1040.0,
+        "isBoss": false,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Huggy Fire",
+            "description": "When activated, equips to the player and transforms into a flamethrower.",
+            "icon": "T_icon_skill_pal_002.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "FlareArrow",
+                "name": "Flare Arrow",
+                "description": "Fires three flaming arrows in succession that home in on an enemy.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 7,
+                "id": "ShadowBall",
+                "name": "Nightmare Ball",
+                "description": "Creates a giant ball of darkness and hurls it at an enemy.",
+                "power": 40,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "Inferno",
+                "name": "Ignis Rage",
+                "description": "Infuses the surrounding ground with energy, causing it to explode after a set amount of time.",
+                "power": 45,
+                "cooldown": 7.0,
+                "range": 3000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "FlareTornado",
+                "name": "Flare Storm",
+                "description": "Generates two flaming tornadoes on either side before launching them at an enemy.",
+                "power": 55,
+                "cooldown": 10.0,
+                "range": 5000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "FireSeed",
+                "name": "Spirit Fire",
+                "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 1500,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_FairyDragon_FairyTornado",
+                "name": "Mystic Whirlwind",
+                "description": "Elphidran's exclusive skill. Generates twin whirlwinds imbued with a mysterious power that pursues enemies.",
+                "power": 75,
+                "cooldown": 16.0,
+                "range": 5000,
+                "element": "Dark",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "Unique_Horus_FlareBird",
+                "name": "Phoenix Flare",
+                "description": "Faleris' exclusive skill. After creating scorching tornadoes, it cloaks itself in hellfire and charges forward.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 9999,
+                "element": "Fire",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 617,
+                "clusters": [
+                    {
+                        "x": -199201.18,
+                        "y": 370769.46,
+                        "z": 804.0,
+                        "density": 206
+                    },
+                    {
+                        "x": -120066.59,
+                        "y": 19612.17,
+                        "z": -393.26,
+                        "density": 159
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 617,
+                "clusters": [
+                    {
+                        "x": -199201.18,
+                        "y": 370769.46,
+                        "z": 804.0,
+                        "density": 206
+                    },
+                    {
+                        "x": -120066.59,
+                        "y": 19612.17,
+                        "z": -393.26,
+                        "density": 159
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "Leather",
+                "name": "Leather",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "FireOrgan",
+                "name": "Flame Organ",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            }
+        ]
+    },
+    {
+        "id": "BOSS_Kitsunebi",
+        "name": "Foxparks",
+        "title": "Revealer of Paths",
+        "description": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally. Foxparks sneezes are one of the leading causes of forest fires.",
+        "paldexNumber": 5,
+        "paldexSuffix": null,
+        "rarity": 5,
+        "size": "S",
+        "genus": "FourLegged",
+        "stats": {
+            "hp": 78,
+            "meleeAttack": 70,
+            "rangedAttack": 75,
+            "defense": 70,
+            "support": 100,
+            "craftSpeed": 100,
+            "stamina": 100
+        },
+        "speed": {
+            "walk": 80,
+            "run": 400,
+            "rideSprint": 550,
+            "swim": 120
+        },
+        "work": {
+            "kindling": 1,
+            "watering": 0,
+            "planting": 0,
+            "electricity": 0,
+            "handiwork": 0,
+            "gathering": 0,
+            "lumbering": 0,
+            "mining": 0,
+            "oilExtraction": 0,
+            "medicine": 0,
+            "cooling": 0,
+            "transporting": 0,
+            "farming": 0
+        },
+        "food": 2,
+        "breeding": {
+            "combiRank": 1400,
+            "maleProbability": 50
+        },
+        "behavior": {
+            "nocturnal": false,
+            "predator": false
+        },
+        "price": 2080.0,
+        "isBoss": true,
+        "passiveSkills": [],
+        "partnerSkill": {
+            "name": "Huggy Fire",
+            "description": "When activated, equips to the player and transforms into a flamethrower.",
+            "icon": "T_icon_skill_pal_002.png",
+            "iconSquare": false
+        },
+        "activeSkills": [
+            {
+                "level": 1,
+                "id": "FlareArrow",
+                "name": "Flare Arrow",
+                "description": "Fires three flaming arrows in succession that home in on an enemy.",
+                "power": 30,
+                "cooldown": 2.0,
+                "range": 5000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 7,
+                "id": "ShadowBall",
+                "name": "Nightmare Ball",
+                "description": "Creates a giant ball of darkness and hurls it at an enemy.",
+                "power": 40,
+                "cooldown": 4.0,
+                "range": 3000,
+                "element": "Earth",
+                "category": "Shot"
+            },
+            {
+                "level": 15,
+                "id": "Inferno",
+                "name": "Ignis Rage",
+                "description": "Infuses the surrounding ground with energy, causing it to explode after a set amount of time.",
+                "power": 45,
+                "cooldown": 7.0,
+                "range": 3000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 22,
+                "id": "FlareTornado",
+                "name": "Flare Storm",
+                "description": "Generates two flaming tornadoes on either side before launching them at an enemy.",
+                "power": 55,
+                "cooldown": 10.0,
+                "range": 5000,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 30,
+                "id": "FireSeed",
+                "name": "Spirit Fire",
+                "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward.",
+                "power": 70,
+                "cooldown": 15.0,
+                "range": 1500,
+                "element": "Fire",
+                "category": "Shot"
+            },
+            {
+                "level": 40,
+                "id": "Unique_FairyDragon_FairyTornado",
+                "name": "Mystic Whirlwind",
+                "description": "Elphidran's exclusive skill. Generates twin whirlwinds imbued with a mysterious power that pursues enemies.",
+                "power": 75,
+                "cooldown": 16.0,
+                "range": 5000,
+                "element": "Dark",
+                "category": "Shot"
+            },
+            {
+                "level": 50,
+                "id": "Unique_Horus_FlareBird",
+                "name": "Phoenix Flare",
+                "description": "Faleris' exclusive skill. After creating scorching tornadoes, it cloaks itself in hellfire and charges forward.",
+                "power": 150,
+                "cooldown": 55.0,
+                "range": 9999,
+                "element": "Fire",
+                "category": "Shot"
+            }
+        ],
+        "spawnLocations": {
+            "dayTime": {
+                "totalSpawns": 617,
+                "clusters": [
+                    {
+                        "x": -199201.18,
+                        "y": 370769.46,
+                        "z": 804.0,
+                        "density": 206
+                    },
+                    {
+                        "x": -120066.59,
+                        "y": 19612.17,
+                        "z": -393.26,
+                        "density": 159
+                    }
+                ]
+            },
+            "nightTime": {
+                "totalSpawns": 617,
+                "clusters": [
+                    {
+                        "x": -199201.18,
+                        "y": 370769.46,
+                        "z": 804.0,
+                        "density": 206
+                    },
+                    {
+                        "x": -120066.59,
+                        "y": 19612.17,
+                        "z": -393.26,
+                        "density": 159
+                    }
+                ]
+            }
+        },
+        "drops": [
+            {
+                "itemId": "PalCrystal_Ex",
+                "name": "Ancient Civilization Parts",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Leather",
+                "name": "Leather",
+                "rate": 100.0,
+                "min": 1,
+                "max": 1
+            },
+            {
+                "itemId": "FireOrgan",
+                "name": "Flame Organ",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "PalItem_ToSell_05",
+                "name": "Precious Pelt",
+                "rate": 100.0,
+                "min": 1,
+                "max": 2
+            },
+            {
+                "itemId": "Accessory_FireResist_1",
+                "name": "Ring of Fire Resistance",
+                "rate": 5.0,
+                "min": 1,
+                "max": 1
+            }
+        ]
+    }
+]

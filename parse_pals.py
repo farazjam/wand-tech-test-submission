@@ -33,7 +33,7 @@ def get_text(table, key):
     return (table.get(key) or {}).get("TextData", {}).get("SourceString")
 
 
-def clean_string(value, name_rows=None, item_name_rows=None):
+def clean_string(value, name_rows=None, item_name_rows=None, ui_text_rows=None):
     """Normalise whitespace and resolve in-string XML-style entity tags."""
     if not value:
         return value
@@ -45,7 +45,11 @@ def clean_string(value, name_rows=None, item_name_rows=None):
         def resolve_item(m):
             return (item_name_rows.get(f"ITEM_NAME_{m.group(1)}") or {}).get("TextData", {}).get("SourceString") or m.group(1)
         value = _RE_ITEM_TAG.sub(resolve_item, value)
-    value = _RE_OTHER_TAG.sub(lambda m: m.group(1), value)
+    value = _RE_OTHER_TAG.sub(
+        lambda m: ((ui_text_rows.get(m.group(1)) or {}).get("TextData", {}).get("SourceString") or m.group(1))
+        if ui_text_rows else m.group(1),
+        value,
+    )
     return _RE_WHITESPACE.sub(' ', value).strip()
 
 
@@ -162,6 +166,12 @@ def load_sources():
 
     icon_rows = {k.lower(): v for k, v in rows("DT_partnerSkillIconDataTable.json").items()}
 
+    char_icon_rows = {}
+    for _k, _v in rows("DT_PalCharacterIconDataTable_Common.json").items():
+        _asset = (_v.get("Icon") or {}).get("AssetPathName") or ""
+        if _asset and _asset != "None" and "." in _asset:
+            char_icon_rows[_k.lower()] = _asset.rsplit(".", 1)[1] + ".png"
+
     waza_by_pal = defaultdict(list)
     for entry in rows("DT_WazaMasterLevel_Common.json").values():
         pal_id = entry.get("PalId")
@@ -184,6 +194,7 @@ def load_sources():
         "rarity_lookup":      rarity_lookup,
         "name_prefix_rows":   rows_optional("DT_NamePrefixText_Common.json"),
         "icon_rows":          icon_rows,
+        "char_icon_rows":     char_icon_rows,
         "waza_table_index":   waza_table_index,
         "tribe_canonical":    tribe_canonical,
     }
@@ -211,6 +222,7 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
     item_name_rows    = sources["item_name_rows"]
     partner_desc_rows = sources["partner_desc_rows"]
     icon_rows         = sources["icon_rows"]
+    char_icon_rows    = sources["char_icon_rows"]
     ui_text_rows      = sources["ui_text_rows"]
     name_prefix_rows  = sources["name_prefix_rows"]
 
@@ -282,6 +294,7 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
     }
 
     price = row.get("Price")
+    icon  = char_icon_rows.get(row_name.lower()) or char_icon_rows.get(base_name.lower()) or None
     isBoss = row.get("IsBoss")
 
     passiveSkills = []
@@ -299,10 +312,10 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
     override_ps_id = row.get("OverridePartnerSkillTextID")
     ps_skill_key = override_ps_id if (override_ps_id and override_ps_id != "None") else f"PARTNERSKILL_{base_name}"
     ps_name = clean_string(get_text(skill_name_rows, ps_skill_key), name_rows) or None
-    ps_desc = clean_string(get_text(partner_desc_rows, f"PAL_FIRST_SPAWN_DESC_{base_name}"), name_rows, item_name_rows) or None
-    icon_vals   = list((icon_rows.get(base_name.lower()) or {}).values())
-    icon_id     = icon_vals[0] if icon_vals else None
-    icon_square = icon_vals[1] if len(icon_vals) > 1 else None
+    ps_desc = clean_string(get_text(partner_desc_rows, f"PAL_FIRST_SPAWN_DESC_{base_name}"), name_rows, item_name_rows, ui_text_rows) or None
+    _ps_row     = icon_rows.get(base_name.lower()) or {}
+    icon_id     = next((v for k, v in _ps_row.items() if "TextureID" in k), None)
+    icon_square = next((v for k, v in _ps_row.items() if "IsSquare"  in k), None)
     partnerSkill = {
         "name":        ps_name,
         "description": ps_desc,
@@ -366,6 +379,7 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
         "breeding":       breeding,
         "behavior":       behavior,
         "price":          price,
+        "icon":           icon,
         "isBoss":         isBoss,
         "passiveSkills":  passiveSkills,
         "partnerSkill":   partnerSkill,
@@ -417,7 +431,7 @@ def main():
             output.append(build_entry(row_name, row, canonical_row, zu, sources))
 
     with open("PalsOutput.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=4)
+        json.dump(output, f, indent=4, ensure_ascii=False)
 
     print(f"Done. Written {len(output)} entries to PalsOutput.json.")
 

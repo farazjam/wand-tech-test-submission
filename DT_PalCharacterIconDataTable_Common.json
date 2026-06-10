@@ -1,0 +1,1439 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalCharacterIconDataTable_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/Pal/DataTable/Character/DT_PalCharacterIconDataTable_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalCharacterIconDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Anubis": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Anubis_icon_normal.T_Anubis_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Baphomet": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Baphomet_icon_normal.T_Baphomet_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Bastet": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Bastet_icon_normal.T_Bastet_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Boar": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Boar_icon_normal.T_Boar_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Carbunclo": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Carbunclo_icon_normal.T_Carbunclo_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ColorfulBird": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ColorfulBird_icon_normal.T_ColorfulBird_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Deer": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Deer_icon_normal.T_Deer_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DrillGame": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DrillGame_icon_normal.T_DrillGame_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Eagle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Eagle_icon_normal.T_Eagle_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ElecPanda": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ElecPanda_icon_normal.T_ElecPanda_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Ganesha": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Ganesha_icon_normal.T_Ganesha_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Garm": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Garm_icon_normal.T_Garm_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Gorilla": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Gorilla_icon_normal.T_Gorilla_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Hedgehog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Hedgehog_icon_normal.T_Hedgehog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Kirin": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Kirin_icon_normal.T_Kirin_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Kitsunebi": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Kitsunebi_icon_normal.T_Kitsunebi_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LittleBriarRose": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LittleBriarRose_icon_normal.T_LittleBriarRose_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Mutant": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Mutant_icon_normal.T_Mutant_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Penguin": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Penguin_icon_normal.T_Penguin_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "RaijinDaughter": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_icon_normal.T_RaijinDaughter_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SharkKid": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SharkKid_icon_normal.T_SharkKid_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SheepBall": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SheepBall_icon_normal.T_SheepBall_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Umihebi": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.T_Umihebi_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Werewolf": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Werewolf_icon_normal.T_Werewolf_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WindChimes": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WindChimes_icon_normal.T_WindChimes_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Suzaku": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.T_Suzaku_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FireKirin": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.T_FireKirin_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FairyDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FairyDragon_icon_normal.T_FairyDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SweetsSheep": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SweetsSheep_icon_normal.T_SweetsSheep_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteTiger": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteTiger_icon_normal.T_WhiteTiger_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Alpaca": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Alpaca_icon_normal.T_Alpaca_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Serpent": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.T_Serpent_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkCrow": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkCrow_icon_normal.T_DarkCrow_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlueDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlueDragon_icon_normal.T_BlueDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkCat": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PinkCat_icon_normal.T_PinkCat_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NegativeKoala": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NegativeKoala_icon_normal.T_NegativeKoala_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FengyunDeeper": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_icon_normal.T_FengyunDeeper_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Volcanicmonster": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.T_VolcanicMonster_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GhostBeast": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.T_GhostBeast_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "RobinHood": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_RobinHood_icon_normal.T_RobinHood_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LazyDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.T_LazyDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "AmaterasuWolf": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.T_AmaterasuWolf_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LizardMan": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LizardMan_icon_normal.T_LizardMan_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Blueplatypus": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BluePlatypus_icon_normal.T_BluePlatypus_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackFurDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlackFurDragon_icon_normal.T_BlackFurDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BeardedDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BeardedDragon_icon_normal.T_BeardedDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BirdDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BirdDragon_icon_normal.T_BirdDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkKangaroo": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_dummy_icon.T_dummy_icon",
+          "SubPathString": ""
+        }
+      },
+      "Boss_Anubis": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Anubis_icon_normal.T_Anubis_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ChickenPal": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ChickenPal_icon_normal.T_ChickenPal_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlowerDinosaur": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.T_FlowerDinosaur_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ElecCat": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ElecCat_icon_normal.T_ElecCat_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceHorse": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.T_IceHorse_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassMammoth": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.T_GrassMammoth_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CatVampire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CatVampire_icon_normal.T_CatVampire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SakuraSaurus": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.T_SakuraSaurus_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Horus": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.T_Horus_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KingBahamut": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.T_KingBahamut_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BerryGoat": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BerryGoat_icon_normal.T_BerryGoat_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceDeer": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.T_IceDeer_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackGriffon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlackGriffon_icon_normal.T_BlackGriffon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteMoth": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteMoth_icon_normal.T_WhiteMoth_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CuteFox": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CuteFox_icon_normal.T_CuteFox_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FoxMage": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FoxMage_icon_normal.T_FoxMage_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkLizard": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PinkLizard_icon_normal.T_PinkLizard_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WaterLizard": {
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "ElecLion": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ElecLion_icon_normal.T_ElecLion_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GuardianDog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.T_GuardianDog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassDragon": {
+        "Icon": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        }
+      },
+      "WizardOwl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WizardOwl_icon_normal.T_WizardOwl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Kelpie": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Kelpie_icon_normal.T_Kelpie_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NegativeOctopus": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_icon_normal.T_NegativeOctopus_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Yeti": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.T_Yeti_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassPanda": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.T_GrassPanda_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Cowpal": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CowPal_icon_normal.T_CowPal_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DreamDemon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DreamDemon_icon_normal.T_DreamDemon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LilyQueen": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LilyQueen_icon_normal.T_LilyQueen_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Bastet_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Bastet_Ice_icon_normal.T_Bastet_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LazyDragon_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.T_LazyDragon_Electric_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BirdDragon_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.T_BirdDragon_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Hedgehog_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Hedgehog_Ice_icon_normal.T_Hedgehog_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceHorse_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.T_IceHorse_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SakuraSaurus_Water": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.T_SakuraSaurus_Water_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Suzaku_Water": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.T_Suzaku_Water_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "VolcanicMonster_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.T_VolcanicMonster_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "VioletFairy": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_VioletFairy_icon_normal.T_VioletFairy_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "HawkBird": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_HawkBird_icon_normal.T_HawkBird_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlowerRabbit": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlowerRabbit_icon_normal.T_FlowerRabbit_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "QueenBee": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_QueenBee_icon_normal.T_QueenBee_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SoldierBee": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SoldierBee_icon_normal.T_SoldierBee_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CatBat": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CatBat_icon_normal.T_CatBat_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlameBuffalo": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.T_FlameBuffalo_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ThunderDog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.T_ThunderDog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CuteMole": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CuteMole_icon_normal.T_CuteMole_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackMetalDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.T_BlackMetalDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassRabbitMan": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrassRabbitMan_icon_normal.T_GrassRabbitMan_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceFox": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceFox_icon_normal.T_IceFox_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "JetDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.T_JetDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Monkey": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Monkey_icon_normal.T_Monkey_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Manticore": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Manticore_icon_normal.T_Manticore_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassPanda_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.T_GrassPanda_Electric_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Yeti_Grass": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.T_Yeti_Grass_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LilyQueen_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LilyQueen_Dark_icon_normal.T_LilyQueen_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Serpent_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Serpent_Ground_icon_normal.T_Serpent_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FairyDragon_Water": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.T_FairyDragon_Water_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PlantSlime": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PlantSlime_icon_normal.T_PlantSlime_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Baphomet_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Baphomet_Dark_icon_normal.T_Baphomet_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CaptainPenguin": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CaptainPenguin_icon_normal.T_CaptainPenguin_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CatMage": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CatMage_icon_normal.T_CatMage_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkMutant": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkMutant_icon_normal.T_DarkMutant_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlowerDinosaur_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.T_FlowerDinosaur_Electric_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "HerculesBeetle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_HerculesBeetle_icon_normal.T_HerculesBeetle_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KingAlpaca": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.T_KingAlpaca_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Manticore_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Manticore_Dark_icon_normal.T_Manticore_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MopBaby": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MopBaby_icon_normal.T_MopBaby_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MopKing": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.T_MopKing_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NightFox": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NightFox_icon_normal.T_NightFox_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkRabbit": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PinkRabbit_icon_normal.T_PinkRabbit_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SaintCentaur": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.T_SaintCentaur_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ThunderBird": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.T_ThunderBird_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.T_WeaselDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlyingManta": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlyingManta_icon_normal.T_FlyingManta_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CuteButterfly": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CuteButterfly_icon_normal.T_CuteButterfly_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NaughtyCat": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.T_NaughtyCat_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Deer_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.T_Deer_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FireKirin_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FireKirin_Dark_icon_normal.T_FireKirin_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassMammoth_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.T_GrassMammoth_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Kelpie_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Kelpie_Fire_icon_normal.T_Kelpie_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KingAlpaca_ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.T_KingAlpaca_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LizardMan_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LizardMan_Fire_icon_normal.T_LizardMan_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "RobinHood_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_RobinHood_Ground_icon_normal.T_RobinHood_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SharkKid_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SharkKid_Fire_icon_normal.T_SharkKid_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackCentaur": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.T_BlackCentaur_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SkyDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.T_SkyDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkScorpion": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkScorpion_icon_normal.T_DarkScorpion_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Ronin": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Ronin_icon_normal.T_Ronin_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ThunderDragonMan": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ThunderDragonMan_icon_normal.T_ThunderDragonMan_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WoolFox": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WoolFox_icon_normal.T_WoolFox_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "RedArmorBird": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.T_RedArmorBird_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "HadesBird": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.T_HadesBird_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlowerDoll": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlowerDoll_icon_normal.T_FlowerDoll_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LavaGirl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LavaGirl_icon_normal.T_LavaGirl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LazyCatfish": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LazyCatfish_icon_normal.T_LazyCatfish_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Umihebi_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.T_Umihebi_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlameBambi": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlameBambi_icon_normal.T_FlameBambi_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WindChimes_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WindChimes_Ice_icon_normal.T_WindChimes_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Human": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CommonHuman_icon_normal.T_CommonHuman_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NightLady": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NightLady_icon_normal.T_NightLady_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NightLady_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NightLady_Dark_icon_normal.T_NightLady_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SkyDragon_Grass": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.T_SkyDragon_Grass_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SmallArmadillo": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SmallArmadillo_icon_normal.T_SmallArmadillo_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FoxMage_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FoxMage_Dark_icon_normal.T_FoxMage_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CatMage_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CatMage_Fire_icon_normal.T_CatMage_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MushroomDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.T_MushroomDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MushroomDragon_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.T_MushroomDragon_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SifuDog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SifuDog_icon_normal.T_SifuDog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WeaselDragon_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.T_WeaselDragon_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FeatherOstrich": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.T_FeatherOstrich_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WingGolem": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WingGolem_icon_normal.T_WingGolem_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "ScorpionMan": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_ScorpionMan_icon_normal.T_ScorpionMan_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LeafPrincess": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LeafPrincess_icon_normal.T_LeafPrincess_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KendoFrog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KendoFrog_icon_normal.T_KendoFrog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CandleGhost": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CandleGhost_icon_normal.T_CandleGhost_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MoonQueen": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MoonQueen_icon_normal.T_MoonQueen_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkScorpion_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkScorpion_Ground_icon_normal.T_DarkScorpion_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Gorilla_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Gorilla_Ground_icon_normal.T_Gorilla_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Ronin_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Ronin_Dark_icon_normal.T_Ronin_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "HadesBird_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.T_HadesBird_Electric_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KingBahamut_Dragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.T_KingBahamut_Dragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "HerculesBeetle_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_HerculesBeetle_Ground_icon_normal.T_HerculesBeetle_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkAlien": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkAlien_icon_normal.T_DarkAlien_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MimicDog": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MimicDog_icon_normal.T_MimicDog_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteAlienDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.T_WhiteAlienDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "AmaterasuWolf_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.T_AmaterasuWolf_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GoldenHorse": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GoldenHorse_icon_normal.T_GoldenHorse_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BadCatGirl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.T_BadCatgirl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlueberryFairy": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlueberryFairy_icon_normal.T_BlueberryFairy_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "DarkMechaDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.T_DarkMechaDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GhostRabbit": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GhostRabbit_icon_normal.T_GhostRabbit_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NightBlueHorse": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.T_NightBlueHorse_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteShieldDragon": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteShieldDragon_icon_normal.T_WhiteShieldDragon_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlackPuppy": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlackPuppy_icon_normal.T_BlackPuppy_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteDeer": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.T_WhiteDeer_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "MysteryMask": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_MysteryMask_icon_normal.T_MysteryMask_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrimGirl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GrimGirl_icon_normal.T_GrimGirl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PurpleSpider": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.T_PurpleSpider_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlueThunderHorse": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.T_BlueThunderHorse_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SnowTigerBeastMan": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.T_SnowTigerBeastman_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Kitsunebi_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Kitsunebi_Ice_icon_normal.T_Kitsunebi_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "RaijinDaughter_Water": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_Water_icon_normal.T_RaijinDaughter_Water_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "WhiteTiger_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_WhiteTiger_Ground_icon_normal.T_WhiteTiger_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FengyunDeeper_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_norma.T_FengyunDeeper_Electric_icon_norma",
+          "SubPathString": ""
+        }
+      },
+      "BerryGoat_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BerryGoat_Dark_icon_normal.T_BerryGoat_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Werewolf_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Werewolf_Ice_icon_normal.T_Werewolf_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Horus_Water": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.T_Horus_Water_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "KendoFrog_Dark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_KendoFrog_Dark_icon_normal.T_KendoFrog_Dark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PinkRabbit_Grass": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PinkRabbit_Grass_icon_normal.T_PinkRabbit_Grass_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "TropicalOstrich": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.T_TropicalOstrich_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "TentacleTurtle": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_TentacleTurtle_icon_normal.T_TentacleTurtle_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "TentacleTurtle_Ground": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_TentacleTurtle_Ground_icon_normal.T_TentacleTurtle_Ground_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "OctopusGIrl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_OctopusGirl_icon_normal.T_OctopusGirl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "JellyfishFairy": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_JellyfishFairy_icon_normal.T_JellyfishFairy_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "JellyfishGhost": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_JellyfishGhost_icon_normal.T_JellyfishGhost_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GhostAnglerfish": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.T_GhostAnglerfish_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GhostAnglerfish_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.T_GhostAnglerfish_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LeafMomonga": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LeafMomonga_icon_normal.T_LeafMomonga_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceCrocodile": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceCrocodile_icon_normal.T_IceCrocodile_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceSeal": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.T_IceSeal_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Plesiosaur": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.T_Plesiosaur_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceWitch": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceWitch_icon_normal.T_IceWitch_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "SnowPeafowl": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_SnowPeafowl_icon_normal.T_SnowPeafowl_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "PoseidonOrca": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.T_PoseidonOrca_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceNarwhal": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.T_IceNarwhal_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "NegativeOctopus_Neutral": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_Neutral_icon_normal.T_NegativeOctopus_Neutral_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "Penguin_Electric": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.T_Penguin_Electric_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "CaptainPenguin_Black": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_CaptainPenguin_Black_icon_normal.T_CaptainPenguin_Black_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "FlyingManta_Thunder": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_FlyingManta_Thunder_icon_normal.T_FlyingManta_Thunder_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BluePlatypus_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BluePlatypus_Fire_icon_normal.T_BluePlatypus_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LazyCatfish_Gold": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LazyCatfish_Gold_icon_normal.T_LazyCatfish_Gold_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "BlueDragon_Ice": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.T_BlueDragon_Ice_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "IceNarwhal_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.T_IceNarwhal_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "StuffedShark": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_StuffedShark_icon_normal.T_StuffedShark_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "StuffedShark_Fire": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_StuffedShark_Fire_icon_normal.T_StuffedShark_Fire_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaBoss001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaBoss001_icon_normal.T_YakushimaBoss001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaBoss001_Small": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaBoss001_Small_icon_normal.T_YakushimaBoss001_Small_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_icon_normal.T_YakushimaMonster001_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster002": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster002_icon_normal.T_YakushimaMonster002_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster003": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster003_icon_normal.T_YakushimaMonster003_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster003_Purple": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster003_Purple_icon_normal.T_YakushimaMonster003_Purple_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001_Blue": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_Blue_icon_normal.T_YakushimaMonster001_Blue_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001_Red": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_Red_icon_normal.T_YakushimaMonster001_Red_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001_Pink": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_Pink_icon_normal.T_YakushimaMonster001_Pink_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001_Purple": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_Purple_icon_normal.T_YakushimaMonster001_Purple_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "YakushimaMonster001_Rainbow": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/Yakushima/T_YakushimaMonster001_Rainbow_icon_normal.T_YakushimaMonster001_Rainbow_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GrassBoss": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Human_GrassBoss_icon_normal.T_Human_GrassBoss_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "GYM_ElecPanda_Otomo": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_Human_GYM_ElecPanda_Otomo_icon_normal.T_Human_GYM_ElecPanda_Otomo_icon_normal",
+          "SubPathString": ""
+        }
+      },
+      "LegendDeer": {
+        "Icon": {
+          "AssetPathName": "/Game/Pal/Texture/PalIcon/Normal/T_LegendDeer_icon_normal.T_LegendDeer_icon_normal",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

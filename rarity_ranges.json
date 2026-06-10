@@ -1,0 +1,6 @@
+[
+  { "min":  1, "max":  4, "key": "RARITY_COMMON"    },
+  { "min":  5, "max":  7, "key": "RARITY_RARE"       },
+  { "min":  8, "max":  9, "key": "RARITY_EPIC"       },
+  { "min": 10, "max": 20, "key": "RARITY_LEGENDARY"  }
+]

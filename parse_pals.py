@@ -140,6 +140,19 @@ def load_sources():
     for tribe in tribe_members:
         tribe_members[tribe].sort(key=_member_sort_key)
 
+    # --- Rarity lookup: int -> label string (built once, reused per entry) ---
+    ui_text_rows = rows("DT_UI_Common_Text_Common.json")
+    try:
+        with open("rarity_ranges.json", encoding="utf-8") as _f:
+            _rarity_ranges = json.load(_f)
+        rarity_lookup = {}
+        for _r in _rarity_ranges:
+            label = (ui_text_rows.get(_r["key"]) or {}).get("TextData", {}).get("SourceString") or _r["key"]
+            for _i in range(_r["min"], _r["max"] + 1):
+                rarity_lookup[_i] = label
+    except FileNotFoundError:
+        rarity_lookup = {}
+
     # --- Other lookup tables ---
     waza_table_index = {}
     for entry in rows("DT_WazaDataTable_Common.json").values():
@@ -167,7 +180,8 @@ def load_sources():
         "drop_rows":          rows("DT_PalDropItem_Common.json"),
         "item_name_rows":     rows("DT_ItemNameText_Common.json"),
         "partner_desc_rows":  rows("DT_PalFirstActivatedInfoText.json"),
-        "ui_text_rows":       rows("DT_UI_Common_Text_Common.json"),
+        "ui_text_rows":       ui_text_rows,
+        "rarity_lookup":      rarity_lookup,
         "name_prefix_rows":   rows_optional("DT_NamePrefixText_Common.json"),
         "icon_rows":          icon_rows,
         "waza_table_index":   waza_table_index,
@@ -211,7 +225,13 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
 
     description = clean_string(get_text(desc_rows, f"PAL_LONG_DESC_{base_name}"), name_rows) or None
 
-    rarity = row.get("Rarity")
+    _rarity_int = row.get("Rarity")
+    rarity = sources["rarity_lookup"].get(_rarity_int) if _rarity_int is not None else None
+    elements = [
+        strip_prefix(row.get(_slot) or "")
+        for _slot in ("ElementType1", "ElementType2")
+        if strip_prefix(row.get(_slot) or "") not in ("", "None")
+    ]
     suffix = row.get("ZukanIndexSuffix") or None
     size   = strip_prefix(row.get("Size") or "")
     genus  = strip_prefix(row.get("GenusCategory") or "")
@@ -336,6 +356,7 @@ def build_entry(row_name, row, base_name, paldex_index, sources):
         "paldexNumber":   paldex_index,
         "paldexSuffix":   suffix,
         "rarity":         rarity,
+        "elements":       elements,
         "size":           size,
         "genus":          genus,
         "stats":          stats,
